@@ -1,47 +1,73 @@
-# Getting Started with Create React App
+<h1 align="center">News Blog</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+<div align="center"> 
+  <img src="https://image.shutterstock.com/image-vector/news-vector-banner-design-concept-260nw-519192289.jpg" alt="chat" width="100%" />
+</div>
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
+<p align="center">
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Introdução
 
-### `npm test`
+O News Blog é um projeto com o intuito de criar um blog com notícias.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
 
-### `npm run build`
+## 📁 Acesso ao projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Você pode baixar o projeto, via github, ou acessa-lo pelo a seguir link para testá-lo.
+<br/>
+link aqui
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📼 Instalação
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `Instalação de dependências`: Para instalar as dependências, use o comando a seguir:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ou, se preferir use o yarn:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 💡 Inicialização
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `Inicialização do projeto`: Para iniciar o projeto, use o comando a seguir:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ou, se preferir, inicie com o yarn:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# news-blog
+```bash
+yarn start
+```
+
+<br/>
+
+## 🔨 Requisitos do projeto
+
+- `Requisito 1` `Filtragem de notícias`: Apresentar um campo de pesquisa, onde a pessoa poderá pesquisar pelo título da notícia que deseja.
+- `Requisito 6` `Consumo de API`: Buscar por notícias para renderizar na tela por meio de uma API.
+- `Requisito 7` `Responsividade`: A aplicação deve se comportar em todos os tipos de tela.
+
+<br/>
+
+## ✔️ Técnicas e tecnologias utilizadas
+
+- `Typescript`
+- `React`
+- `Material UI`
+- `React-Icons`
